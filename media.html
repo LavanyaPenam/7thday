@@ -1,0 +1,54 @@
+<!-- media query
+css 
+@media(screen-width){
+    selector{
+        property:value;
+
+    }
+} 
+
+max width:992px apply css below that 992px
+min width:1200px apply css above that value
+
+
+
+screen sizes
+xs              486px-575px
+     small     576px - 768px      for smart phones
+      medium    768px -992px      for tablets
+    large       992px-1200px,1366px, laptop,desktop
+                1200px,1366px,1586px extra large
+             -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color: papayawhip;
+        }
+        @media(max-width:992px){
+            body{
+                background-color: red;
+            }
+        }
+
+            @media(max-width:992px) and (min-width:768px){
+            
+                body{
+                background-color: orange;
+
+                }
+            
+        }
+        </style>
+
+</head>
+<body>
+    
+</body>
+</html>
